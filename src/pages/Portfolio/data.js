@@ -32,6 +32,6 @@ export const portfolio = [
     title: "FitPoint",
     url: "https://github.com/Nils224/fitness-App",
     ghUrl: "https://github.com/Nils224/fitness-App",
-    image: "folio-images/fitpoint.png"
+    image: "folio-images/FitPoint.png"
   }
 ];
