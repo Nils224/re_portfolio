@@ -1,10 +1,12 @@
 import React from "react";
 import "./home.css";
 import "../../index.css";
-import emailIcon from "../../assets/images/emailIcon.png"
-import ghIcon from "../../assets/images/GitHubIcon.png"
-import liIcon from "../../assets/images/linkedinIcon.png"
-import nerdFace from "../../assets/images/me.png"
+import emailIcon from "../../assets/images/icons/emailIcon.png"
+import ghIcon from "../../assets/images/icons/GitHubIcon.png"
+import liIcon from "../../assets/images/icons/linkedinIcon.png"
+import cvIcon from "../../assets/images/icons/cv-1.png"
+import nerdFace from "../../assets/images/profile/me.png"
+import pdf from "../../assets/CV/Nilesh-Patel-CV.pdf"
 
 function Home() {
   return (
@@ -22,6 +24,10 @@ function Home() {
           I grew up playing awesome games such as Zelda, Mario smash Bros, Halo and Assassins Creed to name a few! I have always been intrigued on how games are made.
           <br /> <br />
           I am now a proud father to my one year old daughter and try and be the best role model for her as she grows up.
+          <br /> <br />
+          I am currently completing the very first Trillogy 24-week Bootcamp course in the UK. The course focuses on HTML5, CSS3, Javascript, Node.js, Express, MySQL, MongoDB, Handlebars.js and React.js.
+          <br /> <br />
+          Feel free to look through my portfolio and you can contact me via email or LinkedIn.
         </p>
       </div>
 
@@ -34,6 +40,9 @@ function Home() {
         </a>
         <a className= "link" href="https://www.linkedin.com/in/nilesh-patel-6b093783/#" target="_blank" rel="noopener noreferrer">
           <img className="index-icon" src={liIcon} alt="LinkedIn-icon"/>
+        </a>
+        <a className= "link" href={pdf} download target="_blank" rel="noopener noreferrer">
+          <img className="index-icon" src={cvIcon} alt="cv-icon"/>
         </a>
       </div>
     </main>

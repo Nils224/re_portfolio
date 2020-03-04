@@ -1,8 +1,8 @@
 import React from "react";
 import "./footer.css";
-import emailIcon from "../../assets/images/emailIcon.png"
-import ghIcon from "../../assets/images/GitHubIcon.png"
-import liIcon from "../../assets/images/linkedinIcon.png"
+import emailIcon from "../../assets/images/icons/emailIcon.png"
+import ghIcon from "../../assets/images/icons/GitHubIcon.png"
+import liIcon from "../../assets/images/icons/linkedinIcon.png"
 
 function Footer() {
   return (
