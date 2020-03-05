@@ -33,5 +33,12 @@ export const portfolio = [
     url: "https://github.com/Nils224/fitness-App",
     ghUrl: "https://github.com/Nils224/fitness-App",
     image: "folio-images/FitPoint.png"
+  }, 
+  {
+    id: 6,
+    title: "Eat That Burger",
+    url: "https://github.com/Nils224/BURGER",
+    ghUrl: "https://github.com/Nils224/BURGER",
+    image: "folio-images/burger-screenshot.png"
   }
 ];
